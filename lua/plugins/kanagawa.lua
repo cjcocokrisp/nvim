@@ -4,7 +4,7 @@ return {
     name = "kanagawa",
     config = function()
       require("kanagawa").setup({
-        transparent = true,
+        --- transparent = true,
       })
     end,
   },
